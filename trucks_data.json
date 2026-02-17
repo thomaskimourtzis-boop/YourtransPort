@@ -1,0 +1,268 @@
+{
+  "trucks": [
+    {
+      "tid": 1,
+      "plate": "ΕΚΒ 3455",
+      "odometer_km": 0,
+      "active": true,
+      "fixed_monthly_expenses": 400.0,
+      "wear_rate_per_km": 0.1,
+      "main_driver_id": 4,
+      "notes": ""
+    },
+    {
+      "tid": 2,
+      "plate": "ΕΚΒ 4171",
+      "odometer_km": 0,
+      "active": true,
+      "fixed_monthly_expenses": 400.0,
+      "wear_rate_per_km": 0.09999999999999999,
+      "main_driver_id": 1,
+      "notes": ""
+    },
+    {
+      "tid": 3,
+      "plate": "ΙΑΕ 5472",
+      "odometer_km": 0,
+      "active": true,
+      "fixed_monthly_expenses": 400.0,
+      "wear_rate_per_km": 0.09999999999999999,
+      "main_driver_id": 5,
+      "notes": ""
+    },
+    {
+      "tid": 4,
+      "plate": "ΝΧΥ 1184",
+      "odometer_km": 0,
+      "active": true,
+      "fixed_monthly_expenses": 400.0,
+      "wear_rate_per_km": 0.0,
+      "main_driver_id": 3,
+      "notes": ""
+    },
+    {
+      "tid": 5,
+      "plate": "ΕΚΒ 3574",
+      "odometer_km": 0,
+      "active": true,
+      "fixed_monthly_expenses": 400.0,
+      "wear_rate_per_km": 0.0,
+      "main_driver_id": 2,
+      "notes": ""
+    },
+    {
+      "tid": 6,
+      "plate": "ΕΚΒ 9534",
+      "odometer_km": 0,
+      "active": true,
+      "fixed_monthly_expenses": 400.0,
+      "wear_rate_per_km": 0.0,
+      "main_driver_id": null,
+      "notes": ""
+    }
+  ],
+  "trips": [
+    {
+      "trip_id": 2,
+      "truck_id": 2,
+      "trip_date": "2026-01-02",
+      "origin": "",
+      "destination": "",
+      "trip_km": 558,
+      "revenue": 0.0,
+      "commission_percent": 0.0,
+      "toll_amount": 0.0,
+      "driver_id": null,
+      "driver_pay": 0.0,
+      "notes": ""
+    },
+    {
+      "trip_id": 3,
+      "truck_id": 3,
+      "trip_date": "2026-01-02",
+      "origin": "",
+      "destination": "",
+      "trip_km": 566,
+      "revenue": 0.0,
+      "commission_percent": 0.0,
+      "toll_amount": 0.0,
+      "driver_id": null,
+      "driver_pay": 0.0,
+      "notes": ""
+    },
+    {
+      "trip_id": 4,
+      "truck_id": 4,
+      "trip_date": "2026-01-02",
+      "origin": "",
+      "destination": "",
+      "trip_km": 396,
+      "revenue": 0.0,
+      "commission_percent": 0.0,
+      "toll_amount": 0.0,
+      "driver_id": 3,
+      "driver_pay": 0.0,
+      "notes": ""
+    },
+    {
+      "trip_id": 5,
+      "truck_id": 5,
+      "trip_date": "2026-01-02",
+      "origin": "",
+      "destination": "",
+      "trip_km": 738,
+      "revenue": 0.0,
+      "commission_percent": 0.0,
+      "toll_amount": 0.0,
+      "driver_id": 2,
+      "driver_pay": 0.0,
+      "notes": ""
+    },
+    {
+      "trip_id": 6,
+      "truck_id": 1,
+      "trip_date": "2026-01-02",
+      "origin": "",
+      "destination": "",
+      "trip_km": 681,
+      "revenue": 100.0,
+      "commission_percent": 0.0,
+      "toll_amount": 0.0,
+      "driver_id": 1,
+      "driver_pay": 0.0,
+      "notes": ""
+    }
+  ],
+  "fuels": [
+    {
+      "fuel_id": 1,
+      "truck_id": 1,
+      "fuel_date": "2026-01-31",
+      "liters": 100.0,
+      "driver_id": null,
+      "cost": 1.2,
+      "odometer_km": 0,
+      "station": "",
+      "receipt": "",
+      "notes": ""
+    }
+  ],
+  "drivers": [
+    {
+      "did": 1,
+      "name": "ΜΑΚΑΡΙΟΥ ΙΩΑΝΝΗΣ",
+      "phone": "",
+      "salary": 0.0,
+      "stamp_cost": 0.0,
+      "pay_mode": "monthly",
+      "pay_per_trip": 0.0,
+      "pay_history": [
+        {
+          "month": "1900-01",
+          "pay_mode": "monthly",
+          "salary": 0.0,
+          "stamp_cost": 0.0,
+          "pay_per_trip": 0.0
+        },
+        {
+          "month": "2026-01",
+          "pay_mode": "monthly",
+          "salary": 0.0,
+          "stamp_cost": 0.0,
+          "pay_per_trip": 0.0
+        }
+      ],
+      "active": true,
+      "notes": ""
+    },
+    {
+      "did": 2,
+      "name": "ΖΑΓΚΟΤΗΣ ΑΝΔΡΕΑΣ",
+      "phone": "",
+      "salary": 0.0,
+      "stamp_cost": 0.0,
+      "pay_mode": "monthly",
+      "pay_per_trip": 0.0,
+      "pay_history": [
+        {
+          "month": "1900-01",
+          "pay_mode": "monthly",
+          "salary": 0.0,
+          "stamp_cost": 0.0,
+          "pay_per_trip": 0.0
+        }
+      ],
+      "active": true,
+      "notes": ""
+    },
+    {
+      "did": 3,
+      "name": "ΣΠΥΡΙΔΗΣ ΙΩΑΝΝΗΣ",
+      "phone": "",
+      "salary": 1500.0,
+      "stamp_cost": 0.0,
+      "pay_mode": "monthly",
+      "pay_per_trip": 0.0,
+      "pay_history": [
+        {
+          "month": "1900-01",
+          "pay_mode": "monthly",
+          "salary": 1500.0,
+          "stamp_cost": 0.0,
+          "pay_per_trip": 0.0
+        }
+      ],
+      "active": true,
+      "notes": ""
+    },
+    {
+      "did": 4,
+      "name": "ΚΑΜΑΔΗΣ ΝΙΚΟΛΑΟΣ",
+      "phone": "",
+      "salary": 1650.0,
+      "stamp_cost": 0.0,
+      "pay_mode": "monthly",
+      "pay_per_trip": 0.0,
+      "pay_history": [
+        {
+          "month": "1900-01",
+          "pay_mode": "monthly",
+          "salary": 1650.0,
+          "stamp_cost": 0.0,
+          "pay_per_trip": 0.0
+        }
+      ],
+      "active": true,
+      "notes": ""
+    },
+    {
+      "did": 5,
+      "name": "ΓΡΟΠΑΛΗΣ ΣΤΑΥΡΟΣ",
+      "phone": "",
+      "salary": 0.0,
+      "stamp_cost": 0.0,
+      "pay_mode": "monthly",
+      "pay_per_trip": 0.0,
+      "pay_history": [
+        {
+          "month": "1900-01",
+          "pay_mode": "monthly",
+          "salary": 0.0,
+          "stamp_cost": 0.0,
+          "pay_per_trip": 0.0
+        }
+      ],
+      "active": true,
+      "notes": ""
+    }
+  ],
+  "settings": {
+    "wear_rate_per_km": 0.1
+  },
+  "next_ids": {
+    "truck": 7,
+    "trip": 9,
+    "fuel": 2,
+    "driver": 6
+  }
+}

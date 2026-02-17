@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "default_rate_pct": 6.0,
+    "default_credit_months": 5,
+    "as_of": "2026-02-08"
+  },
+  "customers": [],
+  "next_customer_id": 1,
+  "invoices": []
+}
